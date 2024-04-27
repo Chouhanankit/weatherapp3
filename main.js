@@ -29,8 +29,6 @@ const getWeather = (city) => {
             wind_speed.innerHTML = response.wind_speed
             wind_speed2.innerHTML = response.wind_speed
             console.log(response)
-
-
         })
         .catch(err => console.log(err));
 }
